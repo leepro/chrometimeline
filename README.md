@@ -1,13 +1,12 @@
-* Drawing a fancy Chrome timeline.
-  * Use the data format from Network.Network.requestWillBeSent and Network.responseReceived
-    * begin: Network.requestWillBeSent
-    * finish: Network.responseReceived's timing (ResourceTiming: dns and other information)
-  * Visualization
-    * resource type --> specific color
-    * start and end as a bar with an assigned color
-    * export as PNG or SVG file 
-    * as cli tool and server service
+* Drawing a timeline for Chrome's timing data.
+  * https://developers.google.com/web/tools/chrome-devtools/network-performance/understanding-resource-timing?hl=en
+  ![timing](https://developers.google.com/web/tools/chrome-devtools/network-performance/imgs/resource-timing-api.png)
 
-* Related to
-  * https://chromedevtools.github.io/devtools-protocol/tot/Network#type-ResourceTiming
+* Example1
+  ![sample](https://github.com/leepro/chrometimeline/blob/master/examples/timeline3.png)
 
+* Example2
+  ![sample](https://github.com/leepro/chrometimeline/blob/master/examples/timeline2.png)
+
+* Example3
+  ![sample](https://github.com/leepro/chrometimeline/blob/master/examples/timeline.png)
