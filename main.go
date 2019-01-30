@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fn := flag.String("s", "perf.json", "json file")
+	fn := flag.String("s", "./perf.json", "json file")
 	output := flag.String("o", "./timeline.png", "output PNG")
 	flag.Parse()
 
