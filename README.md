@@ -10,3 +10,9 @@
 
 * Example3
   ![sample](https://github.com/leepro/chrometimeline/blob/master/examples/timeline.png)
+
+
+
+<a name="license"></a>
+# License
+[The MIT License (MIT)](LICENSE.md)
